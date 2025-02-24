@@ -2,7 +2,7 @@
     <div class="person">
       <h2>姓名：{{name}}</h2>
       <h2>年龄：{{age}}</h2>
-      <button @click="changName">修改名字vvv</button>
+      <button @click="changName">修改名字v的vv</button>
       <button @click="changAge">年龄+1</button>
       <button @click="showTel">点我查看联系方式</button>
     </div>
