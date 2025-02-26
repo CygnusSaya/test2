@@ -1,6 +1,6 @@
 <template>
     <div class="person">
-      <h2>姓名dddddddlalala：{{name}}</h2>
+      <h2>姓名ddddla：{{name}}</h2>
       <h2>年龄：{{age}}</h2>
       <button @click="changName">修改名字v的vv</button>
       <button @click="changAge">年龄+1</button>
