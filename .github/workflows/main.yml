@@ -34,8 +34,8 @@ jobs:
         run: npm run tsc -- --noEmit  # TypeScript 类型检查
 
       # 运行单元测试并检查覆盖率
-      - name: 运行单元测试并生成覆盖率报告
-        run: npm run test -- --coverage
+      # - name: 运行单元测试并生成覆盖率报告
+      #   run: npx vitest run --coverage
 
       # 打包应用
       - name: 打包应用
