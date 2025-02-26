@@ -6,6 +6,6 @@
 </template>
 
 <script lang="ts" setup name="App">
-  import {RouterLink,RouterView} from 'vue-router'  
-  import Person from './components/Person.vue';
+  // import {RouterLink,RouterView} from 'vue-router'  
+  import Person from './components/PersonComponent.vue';
 </script>
